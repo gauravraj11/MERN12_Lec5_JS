@@ -10,3 +10,13 @@ const B  = A.filter((i)=>{
 
 console.log(B);
 console.log(A);
+
+
+const arr=[1,2,3,4,5]
+
+
+const output=arr.filter((x)=>{
+   return (x%2 === 0)
+});
+
+console.log(output);
